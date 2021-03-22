@@ -41,15 +41,15 @@ function makeRows() {
       cell.innerText = i + ',' + j
 
       // uncomment to generate a random background color for cell on mouseover
-      // const color = Math.floor( Math.random() * 16777215 ).toString( 16 )
+     const color = Math.floor( Math.random() * 16777215 ).toString( 16 )
 
-      // cell.addEventListener( 'mouseover', function () {
-      //   cell.style.background = '#' + color
-      // }, false )
+     cell.addEventListener( 'mouseover', function () {
+       cell.style.background = '#' + color
+      }, false )
 
-      // cell.addEventListener( 'mouseout', function () {
-      //   cell.style.background = 'white'
-      // }, false )
+   cell.addEventListener( 'mouseout', function () {
+      cell.style.background = 'white'
+      }, false )
 
       row.appendChild( cell )
 
