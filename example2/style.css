@@ -3,12 +3,12 @@ html {
 }
 
 #ui {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 table,
 td {
-    border: 1px solid #333;
+    border:  none #333;
 }
 
 thead,
@@ -16,6 +16,15 @@ tfoot {
     background-color: #333;
     color: #fff;
 }
+
+img {
+    width: 100%; /* set image width */
+}
+
+div {
+  background-image: url('');
+}
+
 
 /* uncomment to style cells */
 /* td {
